@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+    font-family: 'Montserrat', sans-serif;
+    max-width: 75%;
+    margin: auto;
+    color: #333;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.profile{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 2px solid coral;
+    border-radius: 50%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.title{
+    flex: 1;
+    margin-left: 20px;
+}
+
+.name{
+    color: gray;
+}
+
+.coral{
+    color: coral;
+}
+
+.qualification{
+    letter-spacing: 1px;
+}
+
+.hrline{
+    border: 1px solid coral;
+}
+
+.thead{
+    min-width: 250px;
+    font-size: 22px;
+    color: coral;
+    display: block;
+}
+
+.margin-fix{
+    margin-top: 20px;
+}
+
+.tsubhead{
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.tdiscription{
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.tdata{
+    margin-bottom: 20px;
+}
+
+.buttomtext{
+    text-align: center;
+    font-size: 30px;
+}
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <!-- Header -->
+        <img class="profile" src="img/profile phto.jpg" alt="         error loading image             !!!!">
+        <div class="title">
+            <h1 class="name">Chetan <span class="coral">Ram</span></h1>
+            <div class="qualification">Web Developer & Designer</div>
+        </div>
+        <table>
+            <tr>
+                <td>Email: </td>
+                <td class="coral">chetanchoudhy1009@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Mobile</td>
+                <td class="coral">+91 63632 88007</td>
+            </tr>
+            <tr>
+                <td>Web</td>
+                <td class="coral">unboxreal.com</td>
+            </tr>
+        </table>
+    </div>
+    <!-- hearder close -->
+    <hr class="hrline">
+    <table class="margin-fix">
+        <tr>
+            <td class="thead">INTRODUCTION</td>
+            <td class="tdata">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta dolores nobis aperiam.
+                Repudiandae dolorum expedita, vitae aliquam cumque perspiciatis dolores quas porro hic ratione
+                temporibus repellat, velit fugiat voluptates sit pariatur minus.</td>
+        </tr>
+    </table>
+    <hr class="hrline">
+    <!-- work experience -->
+    <table class="margin-fix">
+        <tr>
+            <td class="thead">WORK EXPERIENCE</td>
+            <td>
+                <div class="tsubhead">Intern - Google</div>
+                <div class="tdiscription"><i>March 2020 - June 2021</i></div>
+                <div class="tdata">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, eligendi. Vero
+                    odio sint at quidem natus est iste sit alias, recusandae repudiandae mollitia explicabo expedita,
+                    vel sapiente iure necessitatibus ab.
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="thead"></td>
+            <td>
+                <div class="tsubhead">Intern - Meta</div>
+                <div class="tdiscription"><i>July 2021 - Dec 2021</i></div>
+                <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, eligendi. Vero odio sint at
+                    quidem natus est iste sit alias, recusandae repudiandae mollitia explicabo expedita, vel sapiente
+                    iure necessitatibus ab. Natus veritatis cumque commodi ipsam. Voluptates incidunt architecto
+                    pariatur dolor, similique sapiente nulla, odio deleniti sunt porro, nemo officia qui! Lorem ipsum
+                    dolor sit, amet consectetur adipisicing elit. Voluptatum, nam dicta praesentium quisquam optio
+                    temporibus totam incidunt! Quis, repellendus a?
+                </div>
+            </td>
+        </tr>
+    </table>
+    <!-- education -->
+    <hr class="hrline">
+    <table class="margin-fix">
+        <tr>
+            <td class="thead">EDUCATION</td>
+            <td>
+                <div class="tsubhead">VMOU <span class="coral">(Bachelor of Arts)</span></div>
+                <div class="tdiscription"><i>June 2017 - Dec 2020</i></div>
+                <div class="tdata">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, eligendi. Vero
+                    odio sint at quidem natus est iste sit alias, recusandae repudiandae mollitia explicabo expedita,
+                    vel sapiente iure necessitatibus ab. Natus veritatis cumque commodi ipsam. Voluptates incidunt
+                    architecto pariatur dolor, similique sapiente nulla, odio deleniti sunt porro, nemo officia qui!
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="thead"></td>
+            <td>
+                <div class="tsubhead">12th<span class="coral"> (Scince)</span></div>
+                <div class="tdiscription"><i>2016</i></div>
+                <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, eligendi. Vero odio sint at
+                    quidem natus est iste sit alias, recusandae repudiandae mollitia explicabo expedita, vel sapiente
+                    iure necessitatibus ab. Natus veritatis cumque commodi ipsam.
+                </div>
+            </td>
+        </tr>
+    </table>
+    <!-- end of education -->
+    <hr class="hrline">
+
+    <p class="buttomtext">Thank you!!</p>
+</body>
+
+</html>
